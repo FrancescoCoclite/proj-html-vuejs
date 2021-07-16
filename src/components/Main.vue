@@ -1,6 +1,5 @@
 <template>
  <div>
-   <i class="fas fa-arrow-right text-primary"></i>
  </div>
 </template>
 

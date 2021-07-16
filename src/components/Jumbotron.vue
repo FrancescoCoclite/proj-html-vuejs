@@ -1,0 +1,49 @@
+<template>
+  <div>
+     <img src="/img/bg-9.jpg" alt="">
+      <section class="jumbo">
+          <div class="container-lg">
+              <div class="row">
+                  <div class="col-6">
+                      <div class="desc">
+                      <h5 class="text-info">LOGISTICS SERVICES</h5>
+                      <h2 class="text-light mt-3">CARGO TRANSPORT</h2>
+                      <p>Fractional or exclusive road cargo transportation to all regions, with small, medium and large vehicles.</p>
+                      <button type="button" class="btn my_btn mx-2">Get in touch</button>
+                      <button type="button" class="btn my_btn mx-2">Read More</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style scoped lang="scss">
+img{
+    height: 800px;
+    width: 100%;
+    filter: brightness(0.3);
+    position: relative;
+}
+.desc{
+    position: absolute;
+    bottom: 60px;
+    h2{
+        font-size: 80px;
+        width: 100px;
+        font-weight: 700;
+    }
+    p{
+        color: gray;
+        font-size: 25px;
+        width: 800px;
+    }
+}
+</style>
