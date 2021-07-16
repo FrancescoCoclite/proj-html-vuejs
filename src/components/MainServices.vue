@@ -14,10 +14,10 @@
               </div>
               <div class="row mt-5 mb-5">
                   <div class="col-4">              
-                    <div class="card bg-dark" style="width: 27rem;">
+                    <div class="card animate">
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
-                            <span class="rounded-circle icone"><i class="fas fa-truck-loading"></i></span><span class="rounded-circle icone"><i class="fas fa-arrow-right"></i></span>
+                            <span class="rounded-circle icone"><i class="fas fa-truck-loading"></i></span><span class="fs-3 text-info"><i class="fas fa-arrow-right"></i></span>
 
                             </div>
                             <h5 class="card-title mt-5">Technology</h5>
@@ -26,10 +26,10 @@
                     </div>
                   </div>
                   <div class="col-4 mb-5">              
-                    <div class="card bg-dark" style="width: 27rem;">
+                    <div class="card animate">
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
-                            <span class="rounded-circle icone"><i class="fas fa-temperature-high"></i></span><span class="rounded-circle icone"><i class="fas fa-arrow-right"></i></span>
+                            <span class="rounded-circle icone"><i class="fas fa-temperature-high"></i></span><span class="fs-3 text-info"><i class="fas fa-arrow-right"></i></span>
                             </div>
                             <h5 class="card-title mt-5">Refeer cargo</h5>
                             <p class="card-text">Regular and frequent monitoring from the receipt of the loaded container to final destination.</p>
@@ -37,11 +37,10 @@
                     </div>
                   </div>
                   <div class="col-4 mb-5">              
-                    <div class="card bg-dark" style="width: 27rem;">
-                        
+                    <div class="card animate">
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
-                            <span class="rounded-circle icone"><i class="fas fa-boxes"></i></span><span class="rounded-circle icone"><i class="fas fa-arrow-right"></i></span>
+                            <span class="rounded-circle icone"><i class="fas fa-boxes"></i></span><span class="fs-3 text-info"><i class="fas fa-arrow-right"></i></span>
                             </div>
                             <h5 class="card-title mt-5">Dry cargo</h5>
                             <p class="card-text">We work with most types of dry cargo, from valuable cargo to the most dangerous requiring care.</p>
@@ -72,8 +71,14 @@ h2{
 button{
     padding:0px;
 }
+.card{
+    background-color: #1D1D23;
+    width: 24rem;
+    padding: 30px;
+    height: 22rem;
+}
 .icone{
-    font-size: 30px;
+    font-size: 20px;
     background-color: #0fffff23;
     padding: 13px;
     color: #16928E;

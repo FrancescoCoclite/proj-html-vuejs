@@ -5,6 +5,8 @@
     <Main/>
     <MainServices/>
     <Logical/>
+    <Counter/>
+    <FeedBack/>
   </div>
 </template>
 <script>
@@ -13,6 +15,9 @@
  import Main from './components/Main.vue'
  import MainServices from './components/MainServices.vue'
  import Logical from './components/Logical.vue'
+ import Counter from './components/Counter.vue'
+ import FeedBack from './components/FeedBack.vue'
+ 
 
 export default {
   name: 'App',
@@ -22,6 +27,8 @@ export default {
     Jumbotron,
     MainServices,
     Logical,
+    Counter,
+    FeedBack,
   }
 }
 </script>
