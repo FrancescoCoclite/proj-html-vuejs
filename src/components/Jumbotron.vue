@@ -1,6 +1,6 @@
 <template>
   <div>
-     <img src="/img/bg-9.jpg" alt="">
+     <img src="/img/bg-9.jpg" alt="bg-camion">
       <section class="jumbo">
           <div class="container-lg">
               <div class="row">
@@ -10,7 +10,7 @@
                       <h2 class="text-light mt-3">CARGO TRANSPORT</h2>
                       <p>Fractional or exclusive road cargo transportation to all regions, with small, medium and large vehicles.</p>
                       <button type="button" class="btn my_btn mx-2">Get in touch</button>
-                      <button type="button" class="btn my_btn mx-2">Read More</button>
+                      <button type="button" class="btn btn-outline-info mx-2">Read More</button>
                       </div>
                   </div>
               </div>

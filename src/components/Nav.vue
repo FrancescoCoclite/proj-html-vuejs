@@ -1,9 +1,9 @@
 <template>
-  <div id="box">
+  <div id="box ">
     <div class="container-lg mt-3">
     <header>
       <div class="logo">
-        <h1 class="text-uppercase">Nexgen</h1>
+        <h1 class="text-uppercase text-light fs-3"><span>Nex</span>gen</h1>
       </div>
       <nav>
         <ul>
@@ -62,6 +62,13 @@ export default {
 .container{
   width: 1080px;
   margin: auto;
+}
+span{
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #058283 ;
+    background-color: #0fffff23;
 }
 
 header{

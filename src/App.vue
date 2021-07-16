@@ -3,12 +3,16 @@
     <Nav/>
     <Jumbotron/>
     <Main/>
+    <MainServices/>
+    <Logical/>
   </div>
 </template>
 <script>
- import Main from './components/Main.vue'
  import Nav from './components/Nav.vue'
  import Jumbotron from './components/Jumbotron.vue'
+ import Main from './components/Main.vue'
+ import MainServices from './components/MainServices.vue'
+ import Logical from './components/Logical.vue'
 
 export default {
   name: 'App',
@@ -16,6 +20,8 @@ export default {
     Nav,
     Main,
     Jumbotron,
+    MainServices,
+    Logical,
   }
 }
 </script>
