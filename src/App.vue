@@ -7,6 +7,7 @@
     <Logical/>
     <Counter/>
     <FeedBack/>
+    <Form/>
   </div>
 </template>
 <script>
@@ -17,6 +18,7 @@
  import Logical from './components/Logical.vue'
  import Counter from './components/Counter.vue'
  import FeedBack from './components/FeedBack.vue'
+ import Form from './components/Form.vue'
  
 
 export default {
@@ -29,6 +31,7 @@ export default {
     Logical,
     Counter,
     FeedBack,
+    Form,
   }
 }
 </script>

@@ -27,12 +27,12 @@
                     </div>
                   </div>
                   <div class="col-4 mb-5">              
-                    <div class="card animate">
-                        <div class="card-body">
-                            <img class="reverse" src="img/logo-3.png" alt="">
-                            <p class="card-text mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit corrupti illo, nihil earum eius tenetur error non natus alias voluptatibus id.</p>
+                        <div class="card animate">
+                            <div class="card-body">
+                                <img class="reverse" src="img/logo-3.png" alt="">
+                                <p class="card-text mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit corrupti illo, nihil earum eius tenetur error non natus alias voluptatibus id.</p>
+                            </div>
                         </div>
-                    </div>
                   </div>
               </div>
           </div>

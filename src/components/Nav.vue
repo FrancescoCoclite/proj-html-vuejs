@@ -79,6 +79,7 @@ header{
   .logo{
    float: left; 
    h1{
+     
     background-image: linear-gradient(left , rgba(0, 247, 255, 0.192) 50%, rgb(255, 255, 0) 100%);
     background-image: -o-linear-gradient(left , rgba(0, 247, 255, 0.192) 50%, rgb(255, 255, 0) 100%);
     background-image: -moz-linear-gradient(left , rgba(0, 247, 255, 0.192) 50%, rgb(255, 255, 0) 100%);
