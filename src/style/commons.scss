@@ -35,4 +35,20 @@
         background: #02ffff;;
     }
   }
+.bonus{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 60px;
+    left: 0px;
+    
+}
+.supp:hover .bonus{
+    display:block;
+    padding: 15px;
+}
+.bonus li{
+    display: block;
+    line-height: 45px;
+}  
   

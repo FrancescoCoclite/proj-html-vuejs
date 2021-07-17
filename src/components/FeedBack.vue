@@ -10,29 +10,13 @@
                   </div>
               </div>
               <div class="row mt-5 mb-5 mx-5">
-                  <div class="col-4">              
-                    <div class="card animate">
+                  <div class="col-4 mb-5" v-for="(element,index) in card" :key="index">              
+                    <div class="card animate" >
                         <div class="card-body">
-                            <img class="reverse" src="img/logo-1.png" alt="">
-                            <p class="card-text mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit corrupti illo, nihil earum eius tenetur error non natus alias voluptatibus id.</p>
+                            <img class="reverse" :src="element.img" alt="">
+                            <p class="card-text mt-5">{{element.text}}</p>
                         </div>
                     </div>
-                  </div>
-                  <div class="col-4 mb-5">              
-                    <div class="card animate">
-                        <div class="card-body">
-                            <img class="reverse" src="img/logo-2.png" alt="">
-                            <p class="card-text mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit corrupti illo, nihil earum eius tenetur error non natus alias voluptatibus id.</p>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="col-4 mb-5">              
-                        <div class="card animate">
-                            <div class="card-body">
-                                <img class="reverse" src="img/logo-3.png" alt="">
-                                <p class="card-text mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit corrupti illo, nihil earum eius tenetur error non natus alias voluptatibus id.</p>
-                            </div>
-                        </div>
                   </div>
               </div>
           </div>
@@ -42,8 +26,27 @@
 
 <script>
 export default {
-
-}
+    name: 'FeedBack',
+    data(){
+        return{
+            card: [
+              {
+                text : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit corrupti illo, nihil earum eius tenetur error non natus alias voluptatibus id.',
+                img: '/img/logo-1.png'
+              }, 
+              {
+                text : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet earum vitae aut harum molestias.',
+                img: '/img/logo-2.png'
+              },
+              {
+                text : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit corrupti illo, nihil earum eius tenetur error non natus alias voluptatibus id.',
+                img: '/img/logo-3.png'
+              },  
+              ]
+        
+        }
+        }
+    }
 </script>
 
 <style scoped lang="scss">
@@ -64,7 +67,7 @@ h2{
     background-color: #1D1D23;
     width: 24rem;
     padding: 30px;
-    height: 22rem;
+    height: 25rem;
 }
 .reverse{
     filter: invert(1);

@@ -1,13 +1,13 @@
 <template>
-<section class="bg-dark">
-    <div class="container-lg p-1 bg-dark text-white">
+<section>
+    <div class="container-lg p-1 text-light">
     <header>
       <div class="logo mt-3">
         <h1 class="text-uppercase text-light fs-3"><span class="text-info">Nex</span>gen</h1>
       </div>
       <nav>
         <ul class="mt-3">
-          <li v-for="(link,index) in links" :key="index"><a href="#"></a>{{link.text}}</li>
+          <li v-for="(link,index) in links" :key="index"><a href="#" class="text-light">{{link.text}}</a></li>
             <i class="far fa-user"></i>
             <button type="button" class="btn my_btn mx-2">Get in touch</button>
         </ul>
@@ -19,35 +19,25 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: 'Nav',
  
   data() {
     return {
       links: [
       {
         text : 'Home',
-        url : '#',
-        status : false,
       }, 
       {
         text : 'About',
-        url : '#',
-        status : false,
       },
       {
         text : 'Service',
-        url : '#',
-        status : false,
       }, 
       {
         text : 'Process',
-        url : '#',
-        status : false,
       }, 
       {
         text : 'Testimonials',
-        url : '#',
-        status : false,
       },  
       ]
 
@@ -63,12 +53,15 @@ section{
   position: fixed;
   z-index: 9999;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.767);
 }
 .container{
   width: 1080px;
   margin: auto;
 }
-
+a{
+  text-decoration: none;
+}
 header{
   height: 70px;
   &::after{

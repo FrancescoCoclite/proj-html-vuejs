@@ -18,51 +18,33 @@
                   </div>
                   <div class="col-3">              
                     <div class="card animate text-secondary">
-                        <div class="card-body mt-1">
+                        <div class="card-body mt-1" >
                             <h2 class="text-light">Company</h2>
-                            <ul>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
+                            <ul v-for="(element,index) in company" :key="index">
+                                <li>{{element.text}}</li>
                             </ul>
                         </div>
                     </div>
                   </div>
-                  <div class="col-3 mb-5">              
+                  <div class="col-3">              
                     <div class="card animate text-secondary">
-                        <div class="card-body mt-1">
-                            <h2 class="text-light">Services</h2>
-                            <ul>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
-                                <li>Testo di prova</li>
+                        <div class="card-body mt-1" >
+                            <h2 class="text-light">Transport</h2>
+                            <ul v-for="(element,index) in transport" :key="index">
+                                <li>{{element.text}}</li>
                             </ul>
                         </div>
                     </div>
                   </div>
-                  <div class="col-3 mb-5">              
-                        <div class="card animate text-secondary">
-                            <div class="card-body mt-1">
-                                <h2 class="text-light">Consultants</h2>
-                                <ul>
-                                    <li>Testo di prova</li>
-                                    <li>Testo di prova</li>
-                                    <li>Testo di prova</li>
-                                    <li>Testo di prova</li>
-                                    <li>Testo di prova</li>
-                                    <li>Testo di prova</li>
-                                    <li>Testo di prova</li>
-                                </ul> 
-                            </div>
+                  <div class="col-3">              
+                    <div class="card animate text-secondary">
+                        <div class="card-body mt-1" >
+                            <h2 class="text-light">Support</h2>
+                            <ul v-for="(element,index) in support" :key="index">
+                                <li>{{element.text}}</li>
+                            </ul>
                         </div>
+                    </div>
                   </div>
               </div>
           </div>
@@ -72,7 +54,72 @@
 
 <script>
 export default {
+name: 'Footer',
+data() {
+    return {
+      company: [
+      {
+        text : 'The Company',
+      }, 
+      {
+        text : 'Istitutional',
+      },
+      {
+        text : 'Social & Events',
+      }, 
+      {
+        text : 'Innovation',
+      }, 
+      {
+        text : 'Envionment',
+      },  
+      {
+        text : 'Technology',
+      },  
+      ],
+      transport: [
+      {
+        text : 'Industrialized',
+      }, 
+      {
+        text : 'Chemicals',
+      },
+      {
+        text : 'Packaged Liquids',
+      }, 
+      {
+        text : 'Construction',
+      }, 
+      {
+        text : 'Laminated Wood',
+      },  
+      {
+        text : 'And others',
+      },  
+      ],
+      support: [
+      {
+        text : 'Responsability',
+      }, 
+      {
+        text : 'Therms of Use',
+      },
+      {
+        text : 'About Cookies',
+      }, 
+      {
+        text : 'Privacy Policy',
+      }, 
+      {
+        text : 'Accessibility',
+      },  
+      {
+        text : 'Information',
+      },  
+      ]
+    }
 
+  }
 }
 </script>
 

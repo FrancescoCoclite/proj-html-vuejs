@@ -17,26 +17,12 @@
                      </ul>
                  </div>
                  <div class="col-4 ms-5 ">
-                        <h4 class="mb-3 ">Vehicle Types</h4>
-                     <div class="box-img d-flex">
-                        <img class="d-inline-block" src="/img/truck-1.png" alt="camion">
+                    <h4 class="mb-3 ">Vehicle Types</h4>
+                     <div class="box-img d-flex" v-for="(element,index) in veicoli" :key="index">
+                        <img class="d-inline-block" :src="element.img" alt="camion">
                         <div>
-                            <h3 class="mx-3">Light</h3>
-                            <p class="mx-3">Max weight 1200 Kg</p>
-                        </div>
-                     </div>
-                     <div class="box-img d-flex">
-                        <img class="d-inline-block" src="/img/truck-1.png" alt="camion">
-                        <div>
-                            <h3 class="mx-3">Medium</h3>
-                            <p class="mx-3">Max weight 6000 Kg</p>
-                        </div>
-                     </div>
-                     <div class="box-img d-flex">
-                        <img class="d-inline-block" src="/img/truck-1.png" alt="camion">
-                        <div>
-                            <h3 class="mx-3">Heavy</h3>
-                            <p class="mx-3">Max weight 24000 Kg</p>
+                            <h3 class="mx-3">{{element.categoria}}</h3>
+                            <p class="mx-3">{{element.peso}}</p>
                         </div>
                      </div>
                      <h4 class="mt-3"> Certification</h4>
@@ -51,7 +37,28 @@
 
 <script>
 export default {
-
+    name: 'Main',
+data(){
+    return{
+        veicoli: [
+        {
+            img : '/img/truck-1.png',
+            categoria: 'Light',
+            peso: 'Max weight 1200 Kg'
+        },
+        {
+            img : '/img/truck-1.png',
+            categoria: 'Medium',
+            peso: 'Max weight 6000 Kg'
+        },
+        {
+            img : '/img/truck-1.png',
+            categoria: 'Heavy',
+            peso: 'Max weight 24000 Kg'
+        },
+        ]
+    }
+}
 }
 
 </script>
