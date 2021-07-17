@@ -5,7 +5,7 @@
               <div class="row">
                   <div class="col-12 mt-5">
                       <h5 class="text-uppercase text-info">Road Transport</h5>
-                      <h2>Main Services</h2>
+                      <h2><span>Main</span> Services</h2>
                       <div>
                         <p class="d-inline-block text-secondary">With all of this expertise and capability comes an unrivalled commitment to customer service. We will work hard to understand your needs in order to develop a productive, long-term partnership. </p> 
                         <button type="button" class="btn btn-outline-info d-iline-block p-2">Read More</button>  
@@ -17,7 +17,7 @@
                     <div class="card animate">
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
-                            <span class="rounded-circle icone"><i class="fas fa-truck-loading"></i></span><span class="fs-3 text-info"><i class="fas fa-arrow-right"></i></span>
+                            <span class="pulse icone"><i class="fas fa-truck-loading"></i></span><span class="fs-3 text-info"><i class="fas fa-arrow-right pulse"></i></span>
 
                             </div>
                             <h5 class="card-title mt-5">Technology</h5>
@@ -29,7 +29,7 @@
                     <div class="card animate">
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
-                            <span class="rounded-circle icone"><i class="fas fa-temperature-high"></i></span><span class="fs-3 text-info"><i class="fas fa-arrow-right"></i></span>
+                            <span class="pulse icone"><i class="fas fa-temperature-high"></i></span><span class="fs-3 text-info"><i class="fas fa-arrow-right pulse"></i></span>
                             </div>
                             <h5 class="card-title mt-5">Refeer cargo</h5>
                             <p class="card-text">Regular and frequent monitoring from the receipt of the loaded container to final destination.</p>
@@ -40,7 +40,7 @@
                     <div class="card animate">
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
-                            <span class="rounded-circle icone"><i class="fas fa-boxes"></i></span><span class="fs-3 text-info"><i class="fas fa-arrow-right"></i></span>
+                            <span class="icone pulse"><i class="fas fa-boxes"></i></span><span class="fs-3 text-info"><i class="fas fa-arrow-right pulse"></i></span>
                             </div>
                             <h5 class="card-title mt-5">Dry cargo</h5>
                             <p class="card-text">We work with most types of dry cargo, from valuable cargo to the most dangerous requiring care.</p>
@@ -67,6 +67,11 @@ p{
 h2{
     font-size: 50px;
     font-weight: bold;
+    span{
+            border-radius: 5px;
+            color: #058283 ;
+            background-color: #0fffff23;
+        }
 }
 button{
     padding:0px;
@@ -78,9 +83,13 @@ button{
     height: 22rem;
 }
 .icone{
-    font-size: 20px;
-    background-color: #0fffff23;
-    padding: 13px;
-    color: #16928E;
+            height: 50px;
+            width: 50px;
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 50%;
+            background: #058283;
+            font-size: 30px;
 }
 </style>

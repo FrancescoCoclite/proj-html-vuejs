@@ -5,7 +5,7 @@
               <div class="row text-center">
                   <div class="col-12 mt-5">
                         <h5 class="text-uppercase text-info">CUSTOMER TESTIMONIALS</h5>
-                        <h2>Trusted Feedback</h2>
+                        <h2>Trusted<span>Feedback</span></h2>
                        <p class="d-inline-block text-secondary">We work intensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition.</p> 
                   </div>
               </div>
@@ -54,6 +54,11 @@ p{
 h2{
     font-size: 50px;
     font-weight: bold;
+    span{
+            border-radius: 5px;
+            color: #058283 ;
+            background-color: #0fffff23;
+        }
 }
 .card{
     background-color: #1D1D23;
