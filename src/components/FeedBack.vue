@@ -10,6 +10,7 @@
                   </div>
               </div>
               <div class="row mt-5 mb-5 mx-5">
+                  <VueSlickCarousel :arrows="false" :dots="false" :slidesToShow="3">
                   <div class="col-4 mb-5" v-for="(element,index) in card" :key="index">              
                     <div class="card animate">
                         <div class="card-body">
@@ -18,6 +19,7 @@
                         </div>
                     </div>
                   </div>
+                  </VueSlickCarousel>
               </div>
           </div>
       </section>
@@ -25,7 +27,12 @@
 </template>
 
 <script>
+ import VueSlickCarousel from 'vue-slick-carousel'
+  import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+  // optional style for arrows & dots
+  import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 export default {
+    components: { VueSlickCarousel },
     name: 'FeedBack',
     data(){
         return{
@@ -41,6 +48,18 @@ export default {
               {
                 text : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit corrupti illo, nihil earum eius tenetur error non natus alias voluptatibus id.',
                 img: '/img/logo-3.png'
+              },  
+              {
+                text : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit corrupti illo, nihil earum eius tenetur error non natus alias voluptatibus id.',
+                img: '/img/logo-4.png'
+              }, 
+              {
+                text : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet earum vitae aut harum molestias.',
+                img: '/img/logo-5.png'
+              },
+              {
+                text : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit corrupti illo, nihil earum eius tenetur error non natus alias voluptatibus id.',
+                img: '/img/logo-1.png'
               },  
               ]
         
