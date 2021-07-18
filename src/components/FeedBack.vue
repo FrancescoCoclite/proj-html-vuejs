@@ -11,7 +11,7 @@
               </div>
               <div class="row mt-5 mb-5 mx-5">
                   <div class="col-4 mb-5" v-for="(element,index) in card" :key="index">              
-                    <div class="card animate" >
+                    <div class="card animate">
                         <div class="card-body">
                             <img class="reverse" :src="element.img" alt="">
                             <p class="card-text mt-5">{{element.text}}</p>
@@ -65,7 +65,7 @@ h2{
 }
 .card{
     background-color: #1D1D23;
-    width: 24rem;
+    width: 22rem;
     padding: 30px;
     height: 25rem;
 }
