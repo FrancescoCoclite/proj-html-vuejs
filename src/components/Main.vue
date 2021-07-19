@@ -7,8 +7,8 @@
                      <h5 class="mb-3 text-uppercase fs-5">who are you</h5>
                      <h2 class="text-uppercase"><span><i class="far fa-gem"></i> Excellence</span> in Transport</h2>
                      <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum velit tortor, interdum sed cursus eu, sagittis ut nunc. Sed vitae tellus et arcu aliquet faucibus fermentum non lacus.</p>
-                     <p class="mt-2">Praesent fringilla quis massa et placerat. Mauris eu dui eget urna pellentesque gravida vitae quis nibh. Ut at augue tortor. Pellentesque quis suscipit magna.</p>
-                     <p class="p-3 paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam tortor, ultrices accumsan mauris eget, pulvinar tincidunt erat. Sed nisi nisi, rutrum sit amet elit.</p>
+                     <p>Praesent fringilla quis massa et placerat. Mauris eu dui eget urna pellentesque gravida vitae quis nibh. Ut at augue tortor. Pellentesque quis suscipit magna.</p>
+                     <p class="p-3 paragrafo mt-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam tortor, ultrices accumsan mauris eget, pulvinar tincidunt erat. Sed nisi nisi, rutrum sit amet elit.</p>
                      <ul>
                          <li>Lorem ipsum dolor sit amet</li>
                          <li>Consectetur adipiscing elit</li>
@@ -91,5 +91,8 @@ img{
     width: 100px;
     height: 100px;
     background-color:white;
+}
+li{
+    margin-bottom: 15px;
 }
 </style>

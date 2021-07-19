@@ -1,14 +1,14 @@
 <template>
-  <div>
-      <section class="bg-dark text-white mt-5">
+  <div class="mt-5">
+      <section class="bg-dark text-white ">
           <div class="container-lg">
               <div class="row">
                   <div class="col-12 mt-5">
                       <h5 class="text-uppercase text-info">Road Transport</h5>
-                      <h2><span>Main</span> Services</h2>
+                      <h2><span class="text-light">Main</span>Services</h2>
                       <div>
                         <p class="d-inline-block text-secondary">With all of this expertise and capability comes an unrivalled commitment to customer service. We will work hard to understand your needs in order to develop a productive, long-term partnership. </p> 
-                        <button type="button" class="btn btn-outline-info d-iline-block p-2">Read More</button>  
+                        <button type="button" class="btn btn-outline-info d-iline-block p-2 text-light text-uppercase px-4">See All</button>  
                       </div>
                   </div>
               </div>

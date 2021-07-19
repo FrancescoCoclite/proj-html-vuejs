@@ -8,7 +8,7 @@
                       <div class="desc">
                       <h5 class="text-info">LOGISTICS SERVICES</h5>
                       <h2 class="text-light mt-3 ">CARGO TRANSPORT</h2>
-                      <p>Fractional or exclusive road cargo transportation to all regions, with small, medium and large vehicles.</p>
+                      <p class="mb-5">Fractional or exclusive road cargo transportation to all regions, with small, medium and large vehicles.</p>
                       <button type="button" class="btn my_btn mx-2 my_light">Get in touch</button>
                       <button type="button" class="btn btn-outline-info mx-2">Read More</button>
                       </div>
@@ -27,22 +27,22 @@ name: 'Jumbotron',
 
 <style scoped lang="scss">
 img{
-    height: 800px;
+    height: 700px;
     width: 100%;
     filter: brightness(0.4);
     position: relative;
 }
 .desc{
     position: absolute;
-    bottom: 60px;
+    bottom:200px;
     h2{
-        font-size: 80px;
+        font-size: 72px;
         width: 100px;
         font-weight: 700;
     }
     p{
         color: gray;
-        font-size: 25px;
+        font-size: 19.2px;
         width: 800px;
     }
 }

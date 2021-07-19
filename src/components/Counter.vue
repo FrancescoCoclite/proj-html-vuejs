@@ -3,8 +3,8 @@
       <div class="container-lg">
           <div class="row text-center">
               <h4 class="text-info mt-5">WHAT ARE WE DOING</h4>
-              <h2 class="text-light mt-3 fs-1"><span>Results</span> in Numbers</h2>
-              <p class="text-light mt-3 fs-4">Our goal is to exceed expectations by delivering the best job possible.</p>
+              <h2 class="text-light mt-3 fs-1"><span class="text-light">Results</span> in Numbers</h2>
+              <p class="text-light mt-3 mb-5 fs-4">Our goal is to exceed expectations by delivering the best job possible.</p>
               <div class="col-3"><div class="text-info big">123</div><div class="text-secondary fs-5">Certification</div></div>
               <div class="col-3"><div class="text-info big">230</div><div class="text-secondary fs-5">Employers</div></div>
               <div class="col-3"><div class="text-info big">517</div><div class="text-secondary fs-5">Customers</div></div>

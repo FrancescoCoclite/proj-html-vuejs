@@ -43,5 +43,6 @@ export default {
 <style lang="scss">
 @import '@/style/general.scss';
 @import '@/style/commons.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 </style>

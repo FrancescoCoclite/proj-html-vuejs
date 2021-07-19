@@ -1,13 +1,22 @@
 <template>
 <section>
-    <div class="container-lg p-1 text-light">
+    <div class="container-lg text-light">
     <header>
       <div class="logo mt-3">
         <h1 class="text-uppercase text-light fs-3"><span class="text-info">Nex</span>gen</h1>
       </div>
       <nav>
         <ul class="mt-3">
-          <li v-for="(link,index) in links" :key="index"><a href="#" class="text-light">{{link.text}}</a></li>
+          <li v-for="(link,index) in link" :key="index" class="dropdown">
+            <a href="#" class="text-light">{{link.text}}</a>
+            <div class="dropdown-content">
+              <ul v-if="link.subitems"> 
+                <li v-for="(element, index) in link.subitems" :key="index">
+                    <a class="text-light">{{element.text}}</a>
+                </li>
+            </ul>
+            </div>
+          </li>
             <i class="far fa-user"></i>
             <button type="button" class="btn my_btn mx-2">Get in touch</button>
         </ul>
@@ -25,21 +34,106 @@ export default {
  
   data() {
     return {
-      links: [
+      link: [
       {
         text : 'Home',
+        subitems: [
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+        ]
       }, 
       {
         text : 'About',
+        subitems: [
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+        ]
       },
       {
         text : 'Service',
+        subitems: [
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+        ]
       }, 
       {
         text : 'Process',
+        subitems: [
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+        ]
       }, 
       {
         text : 'Testimonials',
+        subitems: [
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+          {
+            text : 'Link array',
+          },
+        ]
       },  
       ]
 
@@ -51,6 +145,30 @@ export default {
 
 
 <style scoped lang="scss">
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 100px;
+  background: #132f438a;
+  line-height: 40px;
+  ul{
+    width: 150px;
+    padding: 0;
+  }
+  
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+
+}
 section{
   position: fixed;
   z-index: 9999;
