@@ -8,7 +8,7 @@
       <nav>
         <ul class="mt-3">
           <li v-for="(link,index) in link" :key="index" class="dropdown">
-            <a href="#" class="text-light">{{link.text}}</a>
+            <a href="#" class="text-light">{{link.text}}</a><i class="fas fa-chevron-down"></i>
             <div class="dropdown-content">
               <ul v-if="link.subitems"> 
                 <li v-for="(element, index) in link.subitems" :key="index">
@@ -18,7 +18,7 @@
             </div>
           </li>
             <i class="far fa-user"></i>
-            <button type="button" class="btn my_btn mx-2">Get in touch</button>
+            <button type="button" class="btn my_btn mx-2 text-uppercase">Get in touch</button>
         </ul>
       </nav>
     </header>
@@ -181,6 +181,7 @@ section{
 }
 a{
   text-decoration: none;
+  margin-right: 5px;
 }
 header{
   height: 60px;

@@ -13,7 +13,7 @@
                             <div class="mt-3 contact"><i class="fas fa-phone-alt"></i>3335557776</div>
                             <div class="mt-3 contact"><i class="fas fa-envelope-open"></i>mail@example.com</div>
                             <div class="mt-3 contact"><i class="fas fa-map-marker-alt"></i>Main Avenue, 123</div>
-                            <button type="button" class="btn btn-outline-info mt-4 mb-3 text-light">Get in touch</button>
+                            <button type="button" class=" btn btn-outline-info mt-4 mb-3 text-light">Get in touch</button>
                       </div>
                   </div>
                   <div class="col-3">              

@@ -26,7 +26,7 @@
                             <input type="text" class="form-control" placeholder="More info">
                         </div>
                             <textarea name="message" id="" cols="112" rows="5" placeholder="Messaggio" class="p-3"></textarea>
-                            <button type="button" class="btn rounded-pill btn-outline-info mt-4">Send</button>
+                            <button type="button" class="btn rounded-pill btn-outline-info mt-4 text-uppercase">Send</button>
                     </form>
               </div>
               
@@ -41,7 +41,7 @@
                                 <div class="cont mt-2 fs-5"><span class="icone pulse"><i class="fas fa-envelope-open text-info "></i></span>mail@example.com</div>
                                 <div class="cont mt-2 fs-5"><span class="icone pulse"><i class="fas fa-map-marker-alt text-info "></i></span> Main Avenue, 123</div>
                             </div>
-                            <button type="button" class="btn btn-outline-info mt-4">View Map</button>
+                            <button type="button" class="btn btn-outline-info mt-4 text-uppercase">View Map</button>
                         </div>
                     </div>
                 </div>
