@@ -18,6 +18,8 @@
 </template>
 
 <script>
+
+
 export default {
   name: 'Nav',
  
@@ -53,7 +55,7 @@ section{
   position: fixed;
   z-index: 9999;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: #132f438a;
 }
 .container{
   width: 1080px;
@@ -63,7 +65,7 @@ a{
   text-decoration: none;
 }
 header{
-  height: 70px;
+  height: 60px;
   &::after{
     display: table;
     content: '';

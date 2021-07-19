@@ -44,5 +44,20 @@
         background: #02ffff;
         transform: scale(1.0);
     }
-  } 
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(4, 227, 243, 0.623);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  
   

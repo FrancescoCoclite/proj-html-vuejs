@@ -21,7 +21,7 @@
  import FeedBack from './components/FeedBack.vue'
  import Form from './components/Form.vue'
  import Footer from './components/Footer.vue'
- 
+
 
 export default {
   name: 'App',

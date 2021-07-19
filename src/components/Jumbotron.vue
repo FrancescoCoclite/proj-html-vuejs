@@ -29,7 +29,7 @@ name: 'Jumbotron',
 img{
     height: 800px;
     width: 100%;
-    filter: brightness(0.3);
+    filter: brightness(0.4);
     position: relative;
 }
 .desc{

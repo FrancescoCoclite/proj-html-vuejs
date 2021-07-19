@@ -4,7 +4,7 @@
           <div class="row">
                <div class="row mt-5 mb-5">
                   <div class="col-3">              
-                    <div class="card text-secondary animate">
+                      <div class="card text-secondary animate">
                         <div class="card-body">
                             <div class="logo">
                                 <h1 class="text-uppercase text-light fs-3"><span class="text-info">Nex</span>gen</h1>
@@ -14,14 +14,14 @@
                             <div class="mt-3 contact"><i class="fas fa-envelope-open"></i>mail@example.com</div>
                             <div class="mt-3 contact"><i class="fas fa-map-marker-alt"></i>Main Avenue, 123</div>
                             <button type="button" class="btn btn-outline-info mt-4 mb-3">Get in touch</button>
-                    </div>
+                      </div>
                   </div>
                   <div class="col-3">              
                     <div class="card animate text-secondary">
                         <div class="card-body mt-1" >
                             <h2 class="text-light">Company</h2>
                             <ul v-for="(element,index) in company" :key="index">
-                                <li>{{element.text}}</li>
+                                <li class="social">{{element.text}}</li>
                             </ul>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                         <div class="card-body mt-1" >
                             <h2 class="text-light">Transport</h2>
                             <ul v-for="(element,index) in transport" :key="index">
-                                <li>{{element.text}}</li>
+                                <li class="social">{{element.text}}</li>
                             </ul>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                         <div class="card-body mt-1" >
                             <h2 class="text-light">Support</h2>
                             <ul v-for="(element,index) in support" :key="index">
-                                <li>{{element.text}}</li>
+                                <li class="social">{{element.text}}</li>
                             </ul>
                         </div>
                     </div>
@@ -49,6 +49,20 @@
               </div>
           </div>
       </div>
+      <section class="bg-dark ">
+        <div class="container-lg">
+            <div class="row">
+              <div class="col-12 text-secondary d-flex justify-content-between">
+                <p class="social">© 2021 NEXGEN is Proudly Powered by Codings.</p>
+                <p>
+                <i class="fab fa-facebook social"></i>
+                <i class="fab fa-twitter mx-4 social"></i>
+                <i class="fab fa-linkedin social"></i>
+                </p>
+              </div>
+            </div>
+        </div>
+      </section>
   </section>
 </template>
 
@@ -155,6 +169,9 @@ button{
 }
 .contact:hover{
     color: #058283;
+}
+.social:hover{
+  color: #058283;
 }
 
 
