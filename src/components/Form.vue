@@ -30,11 +30,11 @@
                     </form>
               </div>
               
-                <div class="col-4 mb-3">              
+                <div class="col-4">              
                     <div class="card border-0">
                         <div class="card-body">
                             <h2>Exmple Inc.</h2>
-                            <p class="card-text mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
                             <p class="card-text"> Quasi similique voluptatum ut assumenda autem</p>
                             <div class="text-info">
                                 <div class="cont mt-2 fs-5"><span class="icone pulse"><i class="fas fa-phone-alt text-info "></i></span>3335557776</div>
@@ -75,24 +75,24 @@ h2{
 .cont{
     font-size: 23px ;
     line-height: 50px;
-    .icone{
+        .icone{
             width: 20px;
-    height: 20px;
-    font-size: 20px;
-    line-height: 20px;
-    color: #058283;
-    background-color: #058283;
-    border-radius: 50%;
-    fill: #058283;
-    padding: 10px 10px 10px 10px;
-    margin-right: 20px; 
-    margin-top: 10px; 
-    }
+            height: 20px;
+            font-size: 20px;
+            color: #058283;
+            background-color: #058283;
+            border-radius: 50%;
+            padding: 10px;
+            margin-right: 20px; 
+            margin-top: 10px; 
+            }
 }
 .card{
     padding: 0;
 }
 .card-body{
     width: 20rem;
+    padding: 0;
+    margin-left: 20px;
 }
 </style>
