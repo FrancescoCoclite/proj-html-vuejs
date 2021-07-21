@@ -14,35 +14,26 @@
     }
 }
 .pulse:hover {
-    animation: pulse 5s infinite;
+    animation: pulse 2s infinite;
   }
   
   @keyframes pulse {
     0% {
         background-color: none;
-        display: table-cell;
         text-align: center;
         vertical-align: middle;
         border-radius: 50%;
         transform: scale(1);
-    
-    }
-    50%{
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        border-radius: 50%;
-        background: #02ffff;
-        transform: scale(1.1);
+        
     }
     100% {
         
-        display: table-cell;
         text-align: center;
         vertical-align: middle;
         border-radius: 50%;
         background: #02ffff;
         transform: scale(1.0);
+        
     }
   }
   
